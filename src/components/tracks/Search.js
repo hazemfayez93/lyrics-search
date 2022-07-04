@@ -12,7 +12,6 @@ const Search = () => {
 
   const handleChange = (e) => {
     setTrackTitle(e.target.value);
-    console.log(trackTitle);
   };
 
   const handleClick = async (dispatch) => {
